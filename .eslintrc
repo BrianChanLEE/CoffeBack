@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "semi": [2, "always", { "omitLastInOneLineBlock": true }],
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    "indent": ["warn", 2]
+  }
+}
